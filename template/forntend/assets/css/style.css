@@ -521,7 +521,8 @@ section {
 =========================*/
 
 /* --Banner Area-- */
-#home_one_banner {
+#home_one_
+ {
     background-image: url("../img/banner/bg.png");
     padding: 370px 0 280px 0;
     position: relative;
@@ -3256,10 +3257,11 @@ section {
 =========================*/
 /* --Common Banner-- */
 #common_banner {
-    background-image: url('../img/banner/common-banner.png');
+    background-image: url('../image/hetel_img01.jpg'); /*1920 * 400*/
     padding: 200px 0 130px 0;
     background-repeat: no-repeat;
-    background-size: cover;
+    /* background-size: cover; */
+    background-size: 1920px 550px;
 }
 
 .common_bannner_text {
