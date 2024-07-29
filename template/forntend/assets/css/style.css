@@ -11354,3 +11354,13 @@ font-weight: 400;
 .news_fourteen_btn:hover {
     color: var(--main-color);
 }
+
+/*추가*/
+#home_one_banner {
+    background-image: url("../image/index_main_img.jpg");
+    padding: 370px 0 280px 0;
+    position: relative;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+} 
