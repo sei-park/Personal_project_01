@@ -1368,7 +1368,7 @@ section {
 
 .footer_inquery_area {
     padding-top: 5px;
-    /* border-left: 2px solid var(--main-color); */
+    border-left: 2px solid var(--main-color);
     margin-top: 25px;
     padding-left: 9px;
 }
@@ -11359,7 +11359,7 @@ font-weight: 400;
     color: var(--main-color);
 }
 
-/*추가*/
+/*  //////////////////////////////////// 추가 ////////////////////////////////////   */              
 @font-face {
     font-family: 'Pretendard-Regular';
     src: url('https://fastly.jsdelivr.net/gh/Project-Noonnu/noonfonts_2107@1.1/Pretendard-Regular.woff') format('woff');
@@ -11376,15 +11376,30 @@ font-weight: 400;
     background-size: cover;
 } 
 
+/* index footer */
 .footer_information {
     position: relative;
     left: 50%;
     transform: translateX(-50%);
+}
+
+.footer_heading_area_index {
     text-align: center;
 }
 
-.soical_icon_footer li {
+.footer_first_area_index {
+    text-align: center;
+}
+
+.footer_inquery_area_index {
+    border: none;
+}
+
+.soical_icon_footer_index li {
     position: relative;
     left: 38%;
 }
 
+.left_side_search_heading h5 {
+    font-weight: bold;
+}
