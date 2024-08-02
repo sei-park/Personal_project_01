@@ -75,7 +75,7 @@ body {
     padding: 0;
     margin: 0;
     font-size: 16px;
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Roboto', sans-serif; 
 }
 
 img {
@@ -3364,6 +3364,7 @@ section {
     padding-bottom: 7px;
     font-size: 16px;
     font-weight: 500;
+    font-family: 'Pretendard-Regular';
 }
 
 .filter-price {
@@ -3377,6 +3378,7 @@ section {
     padding: 0;
     color: var(--main-color);
     font-weight: 500;
+    font-family: 'Pretendard-Regular';
 }
 
 .filter-price-text {
@@ -4031,6 +4033,7 @@ html:not([dir="rtl"]) .noUi-horizontal .noUi-handle {
     border: 2px dashed #dddddd75;
     padding: 10px 22px;
     font-size: 16px;
+    font-family: 'Pretendard-Regular';
 }
 
 .bg_input {

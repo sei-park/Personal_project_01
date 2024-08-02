@@ -793,7 +793,7 @@
         // to prevent error logs
         if (priceSlider == null) return;
 
-        noUiSlider.create(priceSlider, {
+        noUiSlider.create(priceSlider, { 
             start: [0, 750],
             connect: true,
             step: 50,
