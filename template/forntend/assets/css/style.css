@@ -3266,19 +3266,20 @@ section {
 
 .visa_info_side_middle img {
     width: 100%;
-}
+} 
 
 /* =========================
        Tour Search Page
 =========================*/
 /* --Common Banner-- */
 #common_banner {
-    background-image: url('../image/hotel_img01.webp');
+    background-image: url('../image/main_banner_img.jpg');
     /*1920 * 400*/
     padding: 200px 0 130px 0;
     background-repeat: no-repeat;
-    /* background-size: cover; */
-    background-size: 1920px 550px;
+    background-size: cover;
+    /* background-size: 1920px 550px;  */
+
 }
 
 .common_bannner_text {
