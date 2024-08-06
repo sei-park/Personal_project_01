@@ -1107,6 +1107,7 @@ section {
     text-overflow: ellipsis;
     overflow: hidden;
     white-space: nowrap;
+    font-family: 'Pretendard-Regular';
 }
 
 .theme_two_box_content h4 a {
@@ -5416,6 +5417,7 @@ textarea {
 .common_author_boxed {
     background: #f3f6fd;
     padding: 45px 20px;
+    font-family: 'Pretendard-Regular';
 }
 
 .common_author_heading {
@@ -5429,6 +5431,7 @@ textarea {
 
 .common_author_heading h2 {
     padding-top: 15px;
+    font-family: 'Pretendard-Regular';
 }
 
 .common_author_form {
@@ -11515,4 +11518,8 @@ textarea {
 
 .left_side_search_heading h5 {
     font-weight: bold;
+}
+
+.have_acount_area p {
+    font-family: 'Pretendard-Regular';
 }
