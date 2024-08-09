@@ -786,8 +786,9 @@ section {
 }
 
 .top_form_search_button {
-    text-align: center;
+    text-align: center; 
     margin-top: 30px;
+    font-family: 'Pretendard-Regular';
 }
 
 .flight_categories_search .nav-tabs {
@@ -2972,10 +2973,12 @@ section {
 
 .cruise_content_top_left h4 {
     padding-top: 8px;
+    font-family: 'Pretendard-Regular';
 }
 
 .cruise_content_top_left p {
     padding-top: 8px;
+    font-family: 'Pretendard-Regular';
 }
 
 .cruise_content_top_right h5 {
@@ -3000,6 +3003,7 @@ section {
     color: var(--main-color);
     font-weight: 500;
     padding-bottom: 4px;
+    font-family: 'Pretendard-Regular';
 }
 
 .cruise_content_middel_right h3 {
@@ -3461,6 +3465,7 @@ html:not([dir="rtl"]) .noUi-horizontal .noUi-handle {
 .area_flex_one span {
     color: var(--black-color);
     font-weight: 500;
+    font-family: 'Pretendard-Regular';
 }
 
 .tour_details_right_boxed {
@@ -11473,26 +11478,8 @@ textarea {
     font-weight: 400;
     font-style: normal;
 }
-
-/* #home_one_banner {
-    background-image: url("../image/index_main_img.jpg");
-    padding: 370px 0 280px 0;
-    position: relative;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    z-index: 1;
-} */
-
-/* #home_one_banner ::before {
-    content: "";
-    background-color: #00000017;
-    position: absolute;
-    inset: 0;
-    z-index: 2;
-} */
-
-/* index footer */
+ 
+/* index footer */   
 .footer_information {
     position: relative;
     left: 50%;
@@ -11521,5 +11508,39 @@ textarea {
 }
 
 .have_acount_area p {
+    font-family: 'Pretendard-Regular';
+}
+
+/* hotel-details */
+.tour_details_top_heading h2 {
+    font-family: 'Pretendard-Regular';
+}
+
+.tour_details_boxed_inner h5{
+    font-size: 16px;
+}
+
+.tour_details_top_heading_right h6 {
+    text-align: center;
+}
+
+.heading_theme {
+    font-family: 'Pretendard-Regular';
+}
+
+.tour_details_right_box_heading h3{
+    font-family: 'Pretendard-Regular';
+}
+
+/* hotel search list */
+.cruise_content_middel_left p {
+    font-family: 'Pretendard-Regular';
+}
+
+.cruise_content_middel_right p {
+    font-family: 'Pretendard-Regular';
+}
+
+.cruise_content_bottom_right a {
     font-family: 'Pretendard-Regular';
 }
