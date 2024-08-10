@@ -3479,9 +3479,9 @@ html:not([dir="rtl"]) .noUi-horizontal .noUi-handle {
     padding-top: 0;
 }
 
-.tour_details_right_box_heading h3 {
-    font-weight: 500;
-    font-size: 22px;
+.tour_details_right_box_heading h3 { 
+    font-weight: 5000;
+    font-size: 25px;
     border-bottom: 1px solid var(--main-color);
     padding-bottom: 10px;
     display: inline-block;
@@ -11479,7 +11479,7 @@ textarea {
     font-style: normal;
 }
  
-/* index footer */   
+/* index */   
 .footer_information {
     position: relative;
     left: 50%;
@@ -11508,6 +11508,14 @@ textarea {
 }
 
 .have_acount_area p {
+    font-family: 'Pretendard-Regular';
+}
+
+.destinations_content_inner a {
+    font-family: 'Pretendard-Regular';
+}
+
+.destinations_content_box a {
     font-family: 'Pretendard-Regular';
 }
 
