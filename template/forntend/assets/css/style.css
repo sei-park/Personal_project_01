@@ -11552,3 +11552,21 @@ textarea {
 .cruise_content_bottom_right a {
     font-family: 'Pretendard-Regular';
 }
+
+/* hotel datails */
+/* 별점 만들기 */
+.rating {
+    width: 106px;
+ }
+ 
+ .rating__star {
+    cursor: pointer;
+    color: #8B3EEA;
+ }
+
+ .form-check {
+    padding-bottom: 10px;
+    box-sizing: border-box;
+ }
+
+
