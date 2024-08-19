@@ -3284,7 +3284,24 @@ section {
     background-repeat: no-repeat;
     background-size: cover;
     /* background-size: 1920px 550px;  */
+}
 
+ /* 로그인, 회원가입 배너 추가  */
+ #common_banner02 {
+    background-image: url('../image/main_banner_img02.jpg');
+    padding: 200px 0 130px 0;
+    background-repeat: no-repeat;
+    background-size: cover;
+    z-index: 1;
+}
+
+/* 로그인, 회원가입 배너 가상클래스 */
+#common_banner02 ::before {
+    content: "";
+    background-color: #0000000c;
+    position: absolute;
+    inset: 0;
+    z-index: 2;
 }
 
 .common_bannner_text {
@@ -3294,6 +3311,7 @@ section {
 .common_bannner_text h2 {
     color: var(--white-color);
     font-weight: 400;
+    z-index: 3;
 }
 
 .common_bannner_text ul {
@@ -4124,7 +4142,7 @@ html:not([dir="rtl"]) .noUi-horizontal .noUi-handle {
     font-weight: 500;
     display: flex;
     justify-content: space-between;
-    padding-left: 105px;
+    /* padding-left: 80px;  */
 }
 
 .coupon_add_area {
@@ -4142,7 +4160,6 @@ html:not([dir="rtl"]) .noUi-horizontal .noUi-handle {
 
 .remove_coupon_tour {
     font-size: 14px;
-    font-style: italic;
     font-weight: 400 !important;
     color: var(--main-color);
     cursor: pointer;
@@ -4154,9 +4171,11 @@ html:not([dir="rtl"]) .noUi-horizontal .noUi-handle {
 
 .total_subtotal_booking h6 {
     font-size: 16px;
-    font-weight: 500;
+    font-weight: 600;
     display: flex;
     justify-content: space-between;
+    color: var(--main-color);
+
 }
 
 /* ================================
@@ -11569,3 +11588,4 @@ textarea {
     box-sizing: border-box;
  }
  
+
