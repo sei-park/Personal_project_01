@@ -3292,14 +3292,15 @@ section {
     padding: 200px 0 130px 0;
     background-repeat: no-repeat;
     background-size: cover;
+    position: relative;
     z-index: 1;
 }
 
 /* 로그인, 회원가입 배너 가상클래스 */
 #common_banner02 ::before {
     content: "";
-    background-color: #0000000c;
-    position: absolute;
+    background-color: #00000006;
+    position: absolute; 
     inset: 0;
     z-index: 2;
 }
@@ -3311,6 +3312,7 @@ section {
 .common_bannner_text h2 {
     color: var(--white-color);
     font-weight: 400;
+    position: relative;
     z-index: 3;
 }
 
@@ -3322,6 +3324,8 @@ section {
     display: inline-block;
     color: var(--white-color);
     padding-left: 7px;
+    position: relative;
+    z-index: 3;
 }
 
 .common_bannner_text ul li:first-child {
@@ -11587,5 +11591,9 @@ textarea {
     padding-bottom: 10px;
     box-sizing: border-box;
  }
- 
 
+ /* room-booking */
+ .main_spical_check span a {
+    font-weight: 600;
+ }
+ 
